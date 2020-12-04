@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B3A3A</color>
+    <color name="colorPrimaryDark">#284559</color>
+    <color name="colorAccent">#1C5560</color>
+    <color name="grey">#5A5C5C</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#DFCD1B</color>
+    <color name="brown">#817603</color>
+    <color name="turkis">#03A895</color>
+    <color name="neon">#4EBD52</color>
+    <color name="lightgrey">#8CAA8D</color>
+    <color name="lilla">#8538DC</color>
+    <color name="pink">#DB33E8</color>
+
+
+</resources>

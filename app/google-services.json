@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "265750702979",
+    "firebase_url": "https://sensomotion69.firebaseio.com",
+    "project_id": "sensomotion69",
+    "storage_bucket": "sensomotion69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265750702979:android:784a36bfc42721a235a4b6",
+        "android_client_info": {
+          "package_name": "com.example.application.navigationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265750702979-v1o0l1jhbkk52gldnvgqq53guprlj569.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpmq1fFxFtm7aOymRqa5VILxZTfJYSRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265750702979-v1o0l1jhbkk52gldnvgqq53guprlj569.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265750702979:android:b1620e77e5a3668135a4b6",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265750702979-v1o0l1jhbkk52gldnvgqq53guprlj569.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpmq1fFxFtm7aOymRqa5VILxZTfJYSRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265750702979-v1o0l1jhbkk52gldnvgqq53guprlj569.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

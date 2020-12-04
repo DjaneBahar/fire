@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/geometrik"
+    tools:context=".Register">
+
+
+    <EditText
+        android:id="@+id/TextUserName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="319dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="Username"
+        android:text="@string/name_input"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="77dp" />
+
+    <EditText
+        android:id="@+id/TextPassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="246dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="75dp"
+       />
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="93dp"
+        android:text="Register"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+
+        app:sub_btn_background="@color/lilla"
+        app:sub_btn_duration="4000"
+        app:sub_btn_ripple_color="@color/grey"
+        tools:ignore="MissingClass" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="286dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        app:srcCompat="@drawable/profilevector" />
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/go2LoginBtn"
+        android:layout_width="188dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginBottom="-5dp"
+        android:text="back to login"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:sub_btn_duration="3000"
+        app:sub_btn_tick_color="@color/white"
+        tools:ignore="MissingClass" />
+
+    <TextView
+        android:id="@+id/show_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="monospace"
+        android:text=""
+        android:textColor="@color/gray"
+        android:textSize="20dp" />
+
+</RelativeLayout>
