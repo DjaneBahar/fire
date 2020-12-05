@@ -49,26 +49,47 @@
         android:layout_marginRight="75dp"
        />
 
-    <com.spark.submitbutton.SubmitButton
+
+
+    <Button
         android:id="@+id/registerBtn"
-        android:layout_width="match_parent"
-        android:layout_height="146dp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginRight="57dp"
-        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="149dp"
+        android:background="@drawable/btnpink"
+        android:lineSpacingExtra="8dp"
         android:text="Register"
-        android:textColor="@color/pink"
-        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
 
-        app:sub_btn_background="@color/lilla"
-        app:sub_btn_duration="4000"
-        app:sub_btn_ripple_color="@color/grey"
-        tools:ignore="MissingClass" />
+    <Button
+        android:id="@+id/go2LoginBtn"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
 
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/btnpink"
+        android:lineSpacingExtra="8dp"
+        android:text="Back 2 Login"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -82,26 +103,6 @@
         android:layout_marginEnd="94dp"
         android:layout_marginRight="94dp"
         app:srcCompat="@drawable/profilevector" />
-
-    <com.spark.submitbutton.SubmitButton
-        android:id="@+id/go2LoginBtn"
-        android:layout_width="188dp"
-        android:layout_height="108dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
-        android:layout_marginTop="653dp"
-        android:layout_marginBottom="-5dp"
-        android:text="back to login"
-        android:textColor="@color/white"
-        android:textSize="10sp"
-        app:sub_btn_duration="3000"
-        app:sub_btn_tick_color="@color/white"
-        tools:ignore="MissingClass" />
 
     <TextView
         android:id="@+id/show_data"

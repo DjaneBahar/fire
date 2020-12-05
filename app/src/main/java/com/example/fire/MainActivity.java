@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         SubmitButton login = (SubmitButton) findViewById(R.id.login2Home_btn);
 
 
-        final SubmitButton HomeButton = (SubmitButton) findViewById(R.id.HomeButton);
+        final SubmitButton HomeButton = (SubmitButton) findViewById(R.id.homeButton);
         //HomeButton.setVisibility(View.INVISIBLE);
 
         final TextView display = findViewById(R.id.textViewShowData);

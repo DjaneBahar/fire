@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+import android.widget.Button;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -41,9 +41,9 @@ public class Register extends AppCompatActivity {
 
         final EditText password = this.findViewById(R.id.TextPassword);
 
-        final SubmitButton registerUserBtn = (SubmitButton) findViewById(R.id.registerBtn);
+        final Button registerUserBtn = this.findViewById(R.id.registerBtn);
 
-        final SubmitButton goToLoginBtn = (SubmitButton) findViewById(R.id.go2LoginBtn);
+        final Button goToLoginBtn = this.findViewById(R.id.go2LoginBtn);
         //goToLoginBtn.setVisibility(View.INVISIBLE);
 
 
